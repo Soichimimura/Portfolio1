@@ -124,7 +124,7 @@ img {
 .main-nav li {
   position: relative;
   display: inline-block;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .fade0 { opacity: 0; animation: fade1 1.2s ease forwards; animation-delay: 1.25s; }
