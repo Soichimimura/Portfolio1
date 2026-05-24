@@ -180,62 +180,6 @@ body::before{
 }
 
 @media (max-width: 900px){
-  .header-inner{
-    grid-template-columns: 1fr;
-    gap: 10px;
-    justify-items: center;
-    padding: 10px 0;
-  }
-
-.page-header{
-  height: auto;
-  padding: 10px 16px;
-}
-
-.logo img{
-  height: 72px;
-  transform: none;
-}
-
-.language{
-  justify-self: center;
-
-}
-
-.language-buttons{
-  margin-top: 8px;
-  flex-wrap: nowrap;
-  gap: 10px;
-}
-
-.lang-btn-en,
-.lang-btn-jp{
-  width: clamp(140px, 44vw, 200px);
-  font-size: 18px;
-  text-align: center;
-  padding: 10px 12px;
-  display: inline-block;
-}
-
-.nav{
-  justify-self: center;
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-
-.nav ul{
-  flex-wrap: wrap;
-  justify-content: center;
-
-  gap: 22px 26px;
-}
-
-.page-header {
-  line-height: 1.4;
-  position: relative;
-  z-index: 10;
-}
 
 body::before{
   inset: 120px 0 0 0;
@@ -253,24 +197,7 @@ body::before{
 
 @media (max-width: 480px){
 
-  .logo img{
-    height: 64px;
-  }
 
-.language-title{
-  font-size: 12px;
-  letter-spacing: 3px;
-}
-
-.nav a{
-  letter-spacing: 2px;
-}
-.btn{
-  width: min(280px, 92vw);
-  font-size: 22px;
-  letter-spacing: .35em;
-  text-indent: .35em;
-}
 
 body::before{
   inset: 205px 0 0 0;
